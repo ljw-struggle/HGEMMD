@@ -12,19 +12,18 @@ Extensive experiments on benchmark multi-omics datasets demonstrate that **HGEMM
 ## 📚 Data Sources and Implementation Notes
 
 - The data used in the paper can be obtained through the following links [https://github.com/txWang/MOGONET](https://github.com/txWang/MOGONET). 
-- The code is implemented on the code provided by MMDynamics [https://github.com/TencentAILabHealthcare/mmdynamics](https://github.com/TencentAILabHealthcare/mmdynamics).
 - If you have any questions, please contact me via the following email [ljwstruggle@gmail.com](ljwstruggle@gmail.com).
 
 ## 🚀 Usage
 To reproduce the results, simply run:
 
 ```bash
-python HGEMMD.py
+python main.py
 ```
 
 ## 📦 Requirements
-* scikit-learn
-* pytorch
+- scikit-learn
+- pytorch
 
 ## ⚠️ Disclaimer
 This code is intended for **academic research only** and is **not approved for clinical use**.
