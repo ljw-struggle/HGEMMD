@@ -1,6 +1,8 @@
 # HGEMMD: Hypergraph-Enhanced Multimodal Dynamics for Patient Classification via Intra- and Inter-Sample Fusion
 Multimodal learning is increasingly pivotal in biomedical research, where multi-omics technologies enable comprehensive characterization of diverse molecular layers. Despite their potential, effective integration of heterogeneous omics data remains challenging due to high dimensionality, modality inconsistency, and complex inter-sample dependencies. Existing methods primarily focus on *intra-sample* feature fusion, often overlooking **high-order structural relationships** across samples, which limits their ability to capture system-level interactions. To address these challenges, we propose **HyperGraph-Enhanced MultiModal Dynamics (HGEMMD)** — a novel framework that **simultaneously models intra-sample modality fusion and inter-sample high-order associations** for robust multi-omics integration and classification.
 
+![Model structure](./data/framework.png)
+
 HGEMMD features the following core innovations:
 
 - ✅ A **multimodal dynamics module** that alleviates data sparsity and modality heterogeneity.
@@ -9,7 +11,7 @@ HGEMMD features the following core innovations:
 
 Extensive experiments on benchmark multi-omics datasets demonstrate that **HGEMMD** consistently outperforms state-of-the-art approaches, validating its effectiveness in **robust and trustworthy multimodal integration**.
 
-![Model structure](./data/framework.png)
+
 
 ## 📚 Data Sources and Implementation Notes
 
