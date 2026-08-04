@@ -9,6 +9,8 @@ HGEMMD features the following core innovations:
 
 Extensive experiments on benchmark multi-omics datasets demonstrate that **HGEMMD** consistently outperforms state-of-the-art approaches, validating its effectiveness in **robust and trustworthy multimodal integration**.
 
+![Model structure](./data/framework.png)
+
 ## 📚 Data Sources and Implementation Notes
 
 - The data used in the paper can be obtained through the following links [https://github.com/txWang/MOGONET](https://github.com/txWang/MOGONET). 
